@@ -46,6 +46,12 @@ body {
   content: "";
 }
 
+/* Apply the jump animation to the icon within the anchor tag */
+.jumping-icon i {
+  animation: jump 0.5s ease infinite;
+}
+
+
 a {
   color: #FF9000;
   -webkit-transition: 0.5s;
